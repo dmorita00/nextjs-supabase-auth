@@ -45,6 +45,7 @@ export default function SignInForm() {
       <button type="submit">Submit</button>
       {hasError && <div>エラーが発生しました。</div>}
       <Link href="/sign-up">会員登録へ</Link>
+      <Link href="/recovery">パスワードリセットへ</Link>
     </form>
   );
 }
