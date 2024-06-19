@@ -16,7 +16,7 @@ export default function SignUpForm() {
       const res = await supabase.auth.signUp({
         email,
         password,
-        options: { emailRedirectTo: "http://localhost:3000/callback" },
+        options: { emailRedirectTo: `${window.location.origin}/callback` },
       });
       if (res.error) {
         throw res.error;
