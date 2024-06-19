@@ -43,10 +43,7 @@ export default function ChangePasswordForm() {
       }}
     >
       <div>パスワード変更</div>
-      <label>
-        パスワード
-        <input type="password" name="password" />
-      </label>
+      <input type="password" name="password" placeholder="新しいパスワード" />
       <button type="submit">変更する</button>
       {hasError && <div>エラーが発生しました。</div>}
     </form>
