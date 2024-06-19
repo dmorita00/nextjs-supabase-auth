@@ -1,7 +1,7 @@
-## frontend
+## nextjs
 
 ```terminal
-cd frontend
+cd nextjs
 npm i
 npm run dev
 ```
