@@ -32,7 +32,13 @@ export default function SignUpForm() {
   return (
     <form
       action={formAction}
-      style={{ display: "inline-flex", flexDirection: "column", gap: "8px" }}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "16px",
+        alignItems: "center",
+        padding: "32px",
+      }}
     >
       <div>会員登録</div>
       <input type="email" placeholder="email" name="email" />

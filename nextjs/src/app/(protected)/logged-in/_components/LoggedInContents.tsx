@@ -53,7 +53,13 @@ export default function LoggedInContents() {
 
   return (
     <div
-      style={{ display: "inline-flex", flexDirection: "column", gap: "16px" }}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "16px",
+        alignItems: "center",
+        padding: "32px",
+      }}
     >
       Logged In!
       <button onClick={resetPassword}>パスワード変更</button>
